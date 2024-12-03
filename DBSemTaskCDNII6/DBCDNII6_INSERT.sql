@@ -8,12 +8,12 @@ INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (2,'Mystic Forest','2023-11-09','12-3',1,3);
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (3,'Shadow Realm','2023-11-10','11-4',1,4);
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (4,'Crystal Caverns','2023-11-11','8-7',1,5);
-INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (5,'Dragon\'s Lair','2023-11-12','14-1',2,3);
+INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (5,'Dragons Lair','2023-11-12','14-1',2,3);
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (6,'Misty Mountains','2023-11-13','13-2',2,4);
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (7,'Enchanted Valley','2023-11-14','9-6',2,5);
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (8,'Shadowy Forest','2023-11-15','8-7',3,4);
 INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (9,'Crystal Peaks','2023-11-16','12-3',3,5);
-INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (10,'Dragon\'s Den','2023-11-17','10-5',4,5);
+INSERT INTO `matches` (`match_ID`, `map`, `date`, `result`, `team_ID`, `team2_ID`) VALUES (10,'Dragons Den','2023-11-17','10-5',4,5);
 
 INSERT INTO `player_statistics` (`statistics_ID`, `kills`, `deaths`, `assists`, `match_ID`, `player_ID`) VALUES (1,10,2,3,1,1);
 INSERT INTO `player_statistics` (`statistics_ID`, `kills`, `deaths`, `assists`, `match_ID`, `player_ID`) VALUES (2,5,3,1,1,2);

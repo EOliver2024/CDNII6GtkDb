@@ -24,6 +24,7 @@ CREATE TABLE Matches
   date DATE NOT NULL,
   result CHAR(4) NOT NULL,
   team_ID INT NOT NULL,
+  team2_ID INT NOT NULL,
   PRIMARY KEY (match_ID),
   FOREIGN KEY (team_ID) REFERENCES Teams(team_ID),
   FOREIGN KEY (team2_ID) REFERENCES Teams(team_ID)
