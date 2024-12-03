@@ -38,12 +38,11 @@ GROUP BY Weapons.name
 ORDER BY usage_count DESC
 LIMIT 1;
 
-/*7. Keresse meg azokat a játékosokat, akik 2-nél több különböző karaktert használtak:*/
-SELECT Players.name, COUNT(DISTINCT Players_characters.characters) AS character_count
-FROM Players 
-JOIN Players_characters ON Players.player_ID = Players_characters.player_ID
-GROUP BY Players.name
-HAVING character_count > 2;
+/*7. Keresse meg azokat a játékosokat, akik 23 évesnél idősebbek és nem Amerikai csapatban játszanak!*/
+SELECT Players.name, Players.age, Teams.nationality
+FROM Players
+JOIN Teams ON Players.team_ID=Teams.team_ID
+WHERE Teams.nationality not like "US" AND Players.age>23;
 
 /*8. Keresse meg a legsikeresebb csapattal rendelkező edzőt:*/
 SELECT Coach.name, MIN(Teams.placement) AS best_placement
